@@ -1,0 +1,24 @@
+.hero {
+  text-align: center;
+  opacity: 0;
+  transform: translateY(-350px);
+  .hero-title {
+    font-family: $title-font;
+    font-size: 44px;
+    font-size: calc(1vw + 1.85rem);
+    line-height: 62px;
+    font-weight: 300;
+    max-width: 18.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24vh;
+    margin-bottom: 24px;
+  }
+  .hero-copy {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 510px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

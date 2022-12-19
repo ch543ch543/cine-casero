@@ -1,0 +1,41 @@
+.header {
+  height: 110px;
+  width: 100%;
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.75s ease, backdrop-filter 0.75s ease, height 0.75s ease;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 $container-padding;
+    .header-logo {
+      width: 80px;
+      height: 50px;
+      background-color: $primary-dark-color;
+    }
+    .header-nav {
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      a {
+        margin-left: 40px;
+        &:hover {
+          font-weight: bold;
+        }
+      }
+      .header-audio {
+        margin-left: 40px;
+        display: flex;
+        img {
+        }
+      }
+    }
+  }
+}

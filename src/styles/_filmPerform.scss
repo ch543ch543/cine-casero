@@ -1,0 +1,59 @@
+.film-performances {
+  padding-top: 200px;
+  padding-bottom: 80px;
+  background-color: $primary-dark-color;
+  color: $primary-light-color;
+  .marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0;
+    width: 100vw;
+    max-width: 100%;
+    .marquee-inner {
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      font-size: 1rem;
+      will-change: transform;
+      width: fit-content;
+      // animation-name: marquee;
+      // animation-duration: 10s;
+      // animation-timing-function: linear;
+      // animation-iteration-count: infinite;
+      // -webkit-aanimation-name: marquee;
+      // -webkit-aanimation-duration: 10s;
+      // -webkit-aanimation-timing-function: linear;
+      // -webkit-aanimation-iteration-count: infinite;
+      .marquee-part {
+        display: inline-block;
+        font-size: 10vw;
+        color: #fff;
+        font-family: 'Ivy Mode', serif;
+        font-weight: 300;
+        line-height: 1;
+      }
+    }
+    &.reverse {
+      .marquee-inner {
+        animation-duration: 32s;
+      }
+    }
+  }
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-reverse {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

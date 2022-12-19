@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  font-family: $content-font;
+  position: relative;
+  color: $primary-dark-color;
+}
+html {
+  height: fit-content;
+  background-color: $primary-light-color;
+}
+a {
+  text-decoration: none;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+.main-container {
+  // transform: translateY(-350px);
+}
+
+.dark {
+  background-color: $primary-dark-color;
+}
