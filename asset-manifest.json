@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1361ad4d.css",
+    "main.js": "/static/js/main.5a391c1e.js",
+    "static/js/787.ebf8867b.chunk.js": "/static/js/787.ebf8867b.chunk.js",
+    "static/media/home-4.jpg": "/static/media/home-4.ef70f8d78cca752ec211.jpg",
+    "static/media/home-3.jpg": "/static/media/home-3.7ba46dfc19ae55f304e1.jpg",
+    "static/media/home-6.jpg": "/static/media/home-6.e387aeb90d39e48d9e15.jpg",
+    "static/media/home-1.jpg": "/static/media/home-1.872c65c6a3b75afa4fea.jpg",
+    "static/media/home-2.jpg": "/static/media/home-2.cc9842bbb973f42f2b93.jpg",
+    "static/media/home-5.jpg": "/static/media/home-5.9caab1f83acd54ac0043.jpg",
+    "static/media/gallery-1.png": "/static/media/gallery-1.b544df4278ae07eaf14c.png",
+    "static/media/foco-2.jpg": "/static/media/foco-2.0da1f00db3f405afb7f8.jpg",
+    "static/media/testimonials-6.jpg": "/static/media/testimonials-6.1fc83beb91bb2282089d.jpg",
+    "static/media/foco-5.jpg": "/static/media/foco-5.5be5fe0671a0ff190cea.jpg",
+    "static/media/foco-3.jpg": "/static/media/foco-3.d1c11a79b65953e7a438.jpg",
+    "static/media/foco-1.jpg": "/static/media/foco-1.2e124b5c88440ac60bd8.jpg",
+    "static/media/home-8.jpg": "/static/media/home-8.bb293fad4a8a0d8433c0.jpg",
+    "static/media/testimonials-2.jpg": "/static/media/testimonials-2.e3b6439c4eb1cd798524.jpg",
+    "static/media/gallery-4.jpg": "/static/media/gallery-4.5cc2896160101634cb67.jpg",
+    "static/media/gallery-3.jpg": "/static/media/gallery-3.be7172fde1effeb65d9d.jpg",
+    "static/media/gallery-6.jpg": "/static/media/gallery-6.4a50a7b39bac66babdb5.jpg",
+    "static/media/testimonials-3.jpg": "/static/media/testimonials-3.f359e9ac04a783f7cc44.jpg",
+    "static/media/gallery-2.jpg": "/static/media/gallery-2.134ccc89fd7f11ce80ca.jpg",
+    "static/media/foco-4.jpg": "/static/media/foco-4.e750e81347059967ba2c.jpg",
+    "static/media/gallery-1.jpg": "/static/media/gallery-1.520987183169d932d570.jpg",
+    "static/media/gallery-5.jpg": "/static/media/gallery-5.b4164b7338d94406d773.jpg",
+    "static/media/testimonials-5.jpg": "/static/media/testimonials-5.a0de46c1cf3c8fa4fbe3.jpg",
+    "static/media/home-7.jpg": "/static/media/home-7.0dcbaa731370b5622204.jpg",
+    "static/media/testimonials-4.jpg": "/static/media/testimonials-4.4840881a774ebc89a33b.jpg",
+    "static/media/testimonials-1.jpg": "/static/media/testimonials-1.09e8200864e1bd0b18c0.jpg",
+    "static/media/gallery-7.jpg": "/static/media/gallery-7.8ecdc54709a64f4cd754.jpg",
+    "index.html": "/index.html",
+    "main.1361ad4d.css.map": "/static/css/main.1361ad4d.css.map",
+    "main.5a391c1e.js.map": "/static/js/main.5a391c1e.js.map",
+    "787.ebf8867b.chunk.js.map": "/static/js/787.ebf8867b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1361ad4d.css",
+    "static/js/main.5a391c1e.js"
+  ]
+}
