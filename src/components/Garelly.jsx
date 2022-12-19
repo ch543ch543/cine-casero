@@ -21,9 +21,9 @@ const Garelly = () => {
         scrollTrigger: {
           trigger: '.gallery-outer',
           start: 'top top',
-          end: 'bottom top',
+          end: 'bottom top'
           // toggleActions: 'play none none reverse',
-          markers: true
+          // markers: true
         }
       });
       gsap.to('.gallery-overlay', {
