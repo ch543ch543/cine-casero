@@ -1,6 +1,7 @@
 # This is a React project using Greensock to create animation effects.
 
 The design of the project is cloned from [https://www.cinecasero.uy/](https://www.cinecasero.uy/) and photos are from me.
+You can check it out here! https://ch543ch543.github.io/cine-casero/
 
 ## Available Scripts
 
