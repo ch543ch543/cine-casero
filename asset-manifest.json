@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cine-casero/static/css/main.1361ad4d.css",
-    "main.js": "/cine-casero/static/js/main.d3f7e9a1.js",
+    "main.css": "/cine-casero/static/css/main.7fad3af3.css",
+    "main.js": "/cine-casero/static/js/main.57d83952.js",
     "static/js/787.ebf8867b.chunk.js": "/cine-casero/static/js/787.ebf8867b.chunk.js",
     "static/media/home-4.jpg": "/cine-casero/static/media/home-4.ef70f8d78cca752ec211.jpg",
     "static/media/home-3.jpg": "/cine-casero/static/media/home-3.7ba46dfc19ae55f304e1.jpg",
@@ -31,12 +31,12 @@
     "static/media/testimonials-1.jpg": "/cine-casero/static/media/testimonials-1.09e8200864e1bd0b18c0.jpg",
     "static/media/gallery-7.jpg": "/cine-casero/static/media/gallery-7.8ecdc54709a64f4cd754.jpg",
     "index.html": "/cine-casero/index.html",
-    "main.1361ad4d.css.map": "/cine-casero/static/css/main.1361ad4d.css.map",
-    "main.d3f7e9a1.js.map": "/cine-casero/static/js/main.d3f7e9a1.js.map",
+    "main.7fad3af3.css.map": "/cine-casero/static/css/main.7fad3af3.css.map",
+    "main.57d83952.js.map": "/cine-casero/static/js/main.57d83952.js.map",
     "787.ebf8867b.chunk.js.map": "/cine-casero/static/js/787.ebf8867b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1361ad4d.css",
-    "static/js/main.d3f7e9a1.js"
+    "static/css/main.7fad3af3.css",
+    "static/js/main.57d83952.js"
   ]
 }
