@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import {
   gallery1,
   gallery2,
@@ -7,56 +7,56 @@ import {
   gallery5,
   gallery6,
   gallery7,
-  gallery1Pin
-} from '../assets';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+  gallery1Pin,
+} from "../assets";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const Garelly = () => {
   useEffect(() => {
     let ctx = gsap.context(() => {
-      gsap.to('.gallery-central', {
+      gsap.to(".gallery-central", {
         opacity: 0,
         scrollTrigger: {
-          trigger: '.gallery-outer',
-          start: 'top top',
-          end: 'bottom top',
+          trigger: ".gallery-outer",
+          start: "top top",
+          end: "bottom top",
           // toggleActions: 'play none none reverse',
-          markers: true
-        }
+          // markers: true
+        },
       });
-      gsap.to('.gallery-overlay', {
-        visibility: 'visible',
+      gsap.to(".gallery-overlay", {
+        visibility: "visible",
         scrollTrigger: {
-          trigger: '.gallery-outer',
-          start: 'top top'
-        }
+          trigger: ".gallery-outer",
+          start: "top top",
+        },
       });
       const tl = gsap.timeline({
         scrollTrigger: {
-          trigger: '.gallery-outer',
-          start: 'top top',
-          end: 'bottom top',
-          toggleActions: 'play none none none',
+          trigger: ".gallery-outer",
+          start: "top top",
+          end: "bottom top",
+          toggleActions: "play none none none",
           scrub: true,
-          pin: true
-        }
-      });
-      tl.to('.gallery-overlay', {
-        clipPath: 'inset(0% -10% round 20px)',
-        duration: 2
-      }).to(
-        '.gallery-title',
-        {
-          opacity: '1',
-          rotate: '0deg',
-          top: '50%',
-          duration: 2
+          pin: true,
         },
-        '-=1.5'
+      });
+      tl.to(".gallery-overlay", {
+        clipPath: "inset(0% -10% round 20px)",
+        duration: 2,
+      }).to(
+        ".gallery-title",
+        {
+          opacity: "1",
+          rotate: "0deg",
+          top: "50%",
+          duration: 2,
+        },
+        "-=1.5"
       );
-    }, document.getElementsByClassName('.main-container')[0]);
+    }, document.getElementsByClassName(".main-container")[0]);
     return () => ctx.revert(); // cleanup!
   }, []);
 
